@@ -4162,6 +4162,19 @@
             </chc>
             <chc>
                 <rule-repo>pmd</rule-repo>
+                <rule-key>NotCatchRuntimeExceptionRule</rule-key>
+                <prop>
+                    <key>remediationFunction</key>
+                    <txt>CONSTANT_ISSUE</txt>
+                </prop>
+                <prop>
+                    <key>offset</key>
+                    <val>2</val>
+                    <txt>min</txt>
+                </prop>
+            </chc>
+            <chc>
+                <rule-repo>pmd</rule-repo>
                 <rule-key>TransactionMustHaveRollbackRule</rule-key>
                 <prop>
                     <key>remediationFunction</key>
@@ -4362,6 +4375,19 @@
             </chc>
 
             <!--AlibabaJavaOop-->
+            <chc>
+                <rule-repo>pmd</rule-repo>
+                <rule-key>MethodParameterCountRule</rule-key>
+                <prop>
+                    <key>remediationFunction</key>
+                    <txt>CONSTANT_ISSUE</txt>
+                </prop>
+                <prop>
+                    <key>offset</key>
+                    <val>2</val>
+                    <txt>min</txt>
+                </prop>
+            </chc>
             <chc>
                 <rule-repo>pmd</rule-repo>
                 <rule-key>EqualsAvoidNullRule</rule-key>

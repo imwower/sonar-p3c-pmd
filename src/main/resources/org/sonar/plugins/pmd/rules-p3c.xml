@@ -146,6 +146,14 @@
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-oop.xml/EqualsAvoidNullRule]]></configKey>
     </rule>
+    <rule key="MethodParameterCountRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-oop.xml/MethodParameterCountRule]]></configKey>
+    </rule>
+    <rule key="NotCatchRuntimeExceptionRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-oop.xml/NotCatchRuntimeExceptionRule]]></configKey>
+    </rule>
     <rule key="WrapperTypeEqualityRule">
         <priority>BLOCKER</priority>
         <configKey><![CDATA[rulesets/java/ali-oop.xml/WrapperTypeEqualityRule]]></configKey>
