@@ -152,7 +152,7 @@
     </rule>
     <rule key="NotCatchRuntimeExceptionRule">
         <priority>CRITICAL</priority>
-        <configKey><![CDATA[rulesets/java/ali-oop.xml/NotCatchRuntimeExceptionRule]]></configKey>
+        <configKey><![CDATA[rulesets/java/ali-exception.xml/NotCatchRuntimeExceptionRule]]></configKey>
     </rule>
     <rule key="WrapperTypeEqualityRule">
         <priority>BLOCKER</priority>
