@@ -158,6 +158,10 @@
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-exception.xml/DoNotPrintStackTraceRule]]></configKey>
     </rule>
+    <rule key="DoNotCatchExceptionInInitBeanRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-exception.xml/DoNotCatchExceptionInInitBeanRule]]></configKey>
+    </rule>
     <rule key="WrapperTypeEqualityRule">
         <priority>BLOCKER</priority>
         <configKey><![CDATA[rulesets/java/ali-oop.xml/WrapperTypeEqualityRule]]></configKey>
