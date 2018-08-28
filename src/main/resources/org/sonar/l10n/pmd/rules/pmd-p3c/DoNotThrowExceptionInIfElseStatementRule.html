@@ -1,0 +1,16 @@
+<p>Look for qualified this usages in the same class.</p>
+<p>Examples:</p>
+<pre>
+    public class DoNotThrowExceptionInIfElseStatementRule {
+        public void test() {
+            String abc = "abc";
+            if(abc == "abc"){
+                System.out.println("abc");
+            }else if (abc == "def"){
+                System.out.println("def");
+            }else {
+                throw new Exception();
+            }
+        }
+    }
+</pre>
